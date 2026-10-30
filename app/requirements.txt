@@ -4,5 +4,11 @@ numpy
 plotly>=6.0
 requests
 tqdm
-geopandas  # optional: basin-polygon area
 scipy
+# basin polygons (area, AORC basin mask)
+geopandas
+shapely>=2.0
+# AORC rainfall (Zarr stores on AWS)
+xarray
+zarr>=3
+s3fs
